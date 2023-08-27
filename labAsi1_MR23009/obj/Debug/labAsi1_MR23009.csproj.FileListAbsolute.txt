@@ -1,0 +1,10 @@
+C:\Users\crist\OneDrive\Documentos\Nueva carpeta\labAsi1_MR23009\labAsi1_MR23009\bin\Debug\labAsi1_MR23009.exe.config
+C:\Users\crist\OneDrive\Documentos\Nueva carpeta\labAsi1_MR23009\labAsi1_MR23009\bin\Debug\labAsi1_MR23009.exe
+C:\Users\crist\OneDrive\Documentos\Nueva carpeta\labAsi1_MR23009\labAsi1_MR23009\bin\Debug\labAsi1_MR23009.pdb
+C:\Users\crist\OneDrive\Documentos\Nueva carpeta\labAsi1_MR23009\labAsi1_MR23009\obj\Debug\labAsi1_MR23009.csproj.AssemblyReference.cache
+C:\Users\crist\OneDrive\Documentos\Nueva carpeta\labAsi1_MR23009\labAsi1_MR23009\obj\Debug\labAsi1_MR23009.Form1.resources
+C:\Users\crist\OneDrive\Documentos\Nueva carpeta\labAsi1_MR23009\labAsi1_MR23009\obj\Debug\labAsi1_MR23009.Properties.Resources.resources
+C:\Users\crist\OneDrive\Documentos\Nueva carpeta\labAsi1_MR23009\labAsi1_MR23009\obj\Debug\labAsi1_MR23009.csproj.GenerateResource.cache
+C:\Users\crist\OneDrive\Documentos\Nueva carpeta\labAsi1_MR23009\labAsi1_MR23009\obj\Debug\labAsi1_MR23009.csproj.CoreCompileInputs.cache
+C:\Users\crist\OneDrive\Documentos\Nueva carpeta\labAsi1_MR23009\labAsi1_MR23009\obj\Debug\labAsi1_MR23009.exe
+C:\Users\crist\OneDrive\Documentos\Nueva carpeta\labAsi1_MR23009\labAsi1_MR23009\obj\Debug\labAsi1_MR23009.pdb
