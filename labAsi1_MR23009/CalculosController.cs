@@ -70,19 +70,18 @@ namespace labAsi1_MR23009
         {
             if (this._pesoEnKilos <= 1)
                 this.costoNeto = 5;
-
-            if (this._pesoEnKilos > 1 && this._pesoEnKilos <= 5)
+            else if (this._pesoEnKilos > 1 && this._pesoEnKilos <= 5)
                 this.costoNeto = 10;
-
-            this.costoNeto = 10 + (this._pesoEnKilos - 5) * 2;
+            else
+                this.costoNeto = 10 + (this._pesoEnKilos - 5) * 2;
         }
 
         public double calcularExtras()
         {
             if (this._envioASanSalvador)
                this.costoNeto -= (this.costoNeto * 0.1);
-                    else
-                        this.costoNeto += (this.costoNeto * 0.2);
+            else
+               this.costoNeto += (this.costoNeto * 0.2);
 
             return this.costoNeto;
         }

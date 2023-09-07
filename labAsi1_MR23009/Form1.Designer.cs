@@ -56,7 +56,6 @@ namespace labAsi1_MR23009
             this.lblTienda.Size = new System.Drawing.Size(182, 36);
             this.lblTienda.TabIndex = 0;
             this.lblTienda.Text = "La Cotorrita";
-            this.lblTienda.Click += new System.EventHandler(this.label1_Click);
             // 
             // lblTitulo
             // 
@@ -67,7 +66,6 @@ namespace labAsi1_MR23009
             this.lblTitulo.Size = new System.Drawing.Size(460, 36);
             this.lblTitulo.TabIndex = 1;
             this.lblTitulo.Text = "Calculadora de costes de envió";
-            this.lblTitulo.Click += new System.EventHandler(this.label2_Click);
             // 
             // lblNombreProducto
             // 
@@ -78,7 +76,6 @@ namespace labAsi1_MR23009
             this.lblNombreProducto.Size = new System.Drawing.Size(153, 36);
             this.lblNombreProducto.TabIndex = 2;
             this.lblNombreProducto.Text = "Producto:";
-            this.lblNombreProducto.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // txtNombreProducto
             // 
@@ -107,6 +104,7 @@ namespace labAsi1_MR23009
             this.txtPeso.Name = "txtPeso";
             this.txtPeso.Size = new System.Drawing.Size(352, 38);
             this.txtPeso.TabIndex = 5;
+            this.txtPeso.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPeso_KeyPress);
             // 
             // label1
             // 
@@ -117,7 +115,6 @@ namespace labAsi1_MR23009
             this.label1.Size = new System.Drawing.Size(230, 36);
             this.label1.TabIndex = 6;
             this.label1.Text = "Zona de Envio:";
-            this.label1.Click += new System.EventHandler(this.label1_Click_2);
             // 
             // rbtSanSalvador
             // 
@@ -132,7 +129,6 @@ namespace labAsi1_MR23009
             this.rbtSanSalvador.Tag = "envio";
             this.rbtSanSalvador.Text = "Dentro de San Salvador";
             this.rbtSanSalvador.UseVisualStyleBackColor = true;
-            this.rbtSanSalvador.CheckedChanged += new System.EventHandler(this.rbtSanSalvador_CheckedChanged);
             // 
             // rbtFueraSanSalvador
             // 
@@ -209,7 +205,6 @@ namespace labAsi1_MR23009
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(352, 38);
             this.txtPrecio.TabIndex = 17;
-            this.txtPrecio.TextChanged += new System.EventHandler(this.txtPrecio_TextChanged);
             // 
             // lblPrecio
             // 

@@ -18,26 +18,6 @@ namespace labAsi1_MR23009
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_2(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             bool converted = false;
@@ -80,17 +60,15 @@ namespace labAsi1_MR23009
                 txtDescuento.Text = "Se le aplicara un descuento del 10%";
             }
             else
-            {
                 txtDescuento.Text = "Se le aplicara un cargo extra del 20%";
 
-            }
 
 
             calculos.calcularCostoNeto();
             calculos.calcularExtras();
             total = calculos.calcularTotal();
 
-            mensajeRespuesta = "Nombre del producto: " + calculos.NombreProducto + "Precio producto: $" + calculos.Precio.ToString("F2") + "Coste de Envio: $" + calculos.CostoNeto.ToString("F2") + "Total a pagar: $" + total.ToString("F2");
+            mensajeRespuesta = "Nombre del producto: " + calculos.NombreProducto + " \r\nPrecio producto: $" + calculos.Precio.ToString("F2") + "\r\nCoste de Envio: $" + calculos.CostoNeto.ToString("F2") + "\r\nTotal a pagar: $" + total.ToString("F2");
 
             txtResultado.Text = mensajeRespuesta;
         }
@@ -109,14 +87,9 @@ namespace labAsi1_MR23009
             txtDescuento.Visible = false;
         }
 
-        private void rbtSanSalvador_CheckedChanged(object sender, EventArgs e)
+        private void txtPeso_KeyPress(object sender, KeyPressEventArgs e)
         {
-
-        }
-
-        private void txtPrecio_TextChanged(object sender, EventArgs e)
-        {
-
+            
         }
     }
 }
